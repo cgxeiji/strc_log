@@ -1,0 +1,3 @@
+[submodule "libs/strc"]
+	path = libs/strc
+	url = git@github.com:cgxeiji/strc.git

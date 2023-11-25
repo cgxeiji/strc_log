@@ -1,0 +1,218 @@
+[
+    {
+        "id": 0,
+        "string": "in file: /main.cpp@57 | [INF] Which translates to the array bytes: [%02x %02x %02x %02x] + [%02x %02x %02x %02x]",
+        "cpp": "template</*\n    in file: /main.cpp@57 | INF Which translates to the array bytes: %02x %02x %02x %02x + %02x %02x %02x %02x\n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char, 105, 110, 32, 102, 105, 108, 101, 58, 32, 47, 109, 97, 105, 110, 46, 99, 112, 112, 64, 53, 55, 32, 124, 32, 91, 73, 78, 70, 93, 32, 87, 104, 105, 99, 104, 32, 116, 114, 97, 110, 115, 108, 97, 116, 101, 115, 32, 116, 111, 32, 116, 104, 101, 32, 97, 114, 114, 97, 121, 32, 98, 121, 116, 101, 115, 58, 32, 91, 37, 48, 50, 120, 32, 37, 48, 50, 120, 32, 37, 48, 50, 120, 32, 37, 48, 50, 120, 93, 32, 43, 32, 91, 37, 48, 50, 120, 32, 37, 48, 50, 120, 32, 37, 48, 50, 120, 32, 37, 48, 50, 120, 93>>() { return 0; }\n\ntemplate</*\n    in file: /main.cpp@57 | INF Which translates to the array bytes: %02x %02x %02x %02x + %02x %02x %02x %02x\n*/>\ncgx::strc_id_t cgx::get_fmt_strc_id<cgx::strc<char, 105, 110, 32, 102, 105, 108, 101, 58, 32, 47, 109, 97, 105, 110, 46, 99, 112, 112, 64, 53, 55, 32, 124, 32, 91, 73, 78, 70, 93, 32, 87, 104, 105, 99, 104, 32, 116, 114, 97, 110, 115, 108, 97, 116, 101, 115, 32, 116, 111, 32, 116, 104, 101, 32, 97, 114, 114, 97, 121, 32, 98, 121, 116, 101, 115, 58, 32, 91, 37, 48, 50, 120, 32, 37, 48, 50, 120, 32, 37, 48, 50, 120, 32, 37, 48, 50, 120, 93, 32, 43, 32, 91, 37, 48, 50, 120, 32, 37, 48, 50, 120, 32, 37, 48, 50, 120, 32, 37, 48, 50, 120, 93>, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char>() { return 0; }",
+        "variable_types": [
+            {
+                "type": "unsigned char",
+                "size": 1
+            },
+            {
+                "type": "unsigned char",
+                "size": 1
+            },
+            {
+                "type": "unsigned char",
+                "size": 1
+            },
+            {
+                "type": "unsigned char",
+                "size": 1
+            },
+            {
+                "type": "unsigned char",
+                "size": 1
+            },
+            {
+                "type": "unsigned char",
+                "size": 1
+            },
+            {
+                "type": "unsigned char",
+                "size": 1
+            },
+            {
+                "type": "unsigned char",
+                "size": 1
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "string": "",
+        "cpp": "template</*\n    \n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char>>() { return 1; }",
+        "variable_types": []
+    },
+    {
+        "id": 2,
+        "string": "Enumerator::ItCanBeVeryVerbose",
+        "cpp": "template</*\n    Enumerator::ItCanBeVeryVerbose\n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char, 69, 110, 117, 109, 101, 114, 97, 116, 111, 114, 58, 58, 73, 116, 67, 97, 110, 66, 101, 86, 101, 114, 121, 86, 101, 114, 98, 111, 115, 101>>() { return 2; }",
+        "variable_types": []
+    },
+    {
+        "id": 3,
+        "string": "in file: /main.cpp@18 | [INF] The following log levels are available:",
+        "cpp": "template</*\n    in file: /main.cpp@18 | [INF] The following log levels are available:\n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char, 105, 110, 32, 102, 105, 108, 101, 58, 32, 47, 109, 97, 105, 110, 46, 99, 112, 112, 64, 49, 56, 32, 124, 32, 91, 73, 78, 70, 93, 32, 84, 104, 101, 32, 102, 111, 108, 108, 111, 119, 105, 110, 103, 32, 108, 111, 103, 32, 108, 101, 118, 101, 108, 115, 32, 97, 114, 101, 32, 97, 118, 97, 105, 108, 97, 98, 108, 101, 58>>() { return 3; }",
+        "variable_types": []
+    },
+    {
+        "id": 4,
+        "string": "in file: /main.cpp@19 | [TRC] CGX_TRACE(str)",
+        "cpp": "template</*\n    in file: /main.cpp@19 | [TRC] CGX_TRACE(str)\n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char, 105, 110, 32, 102, 105, 108, 101, 58, 32, 47, 109, 97, 105, 110, 46, 99, 112, 112, 64, 49, 57, 32, 124, 32, 91, 84, 82, 67, 93, 32, 67, 71, 88, 95, 84, 82, 65, 67, 69, 40, 115, 116, 114, 41>>() { return 4; }",
+        "variable_types": []
+    },
+    {
+        "id": 5,
+        "string": "in file: /main.cpp@20 | [USR] CGX_USER(str)",
+        "cpp": "template</*\n    in file: /main.cpp@20 | [USR] CGX_USER(str)\n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char, 105, 110, 32, 102, 105, 108, 101, 58, 32, 47, 109, 97, 105, 110, 46, 99, 112, 112, 64, 50, 48, 32, 124, 32, 91, 85, 83, 82, 93, 32, 67, 71, 88, 95, 85, 83, 69, 82, 40, 115, 116, 114, 41>>() { return 5; }",
+        "variable_types": []
+    },
+    {
+        "id": 6,
+        "string": "in file: /main.cpp@21 | [DBG] CGX_DEBUG(str)",
+        "cpp": "template</*\n    in file: /main.cpp@21 | [DBG] CGX_DEBUG(str)\n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char, 105, 110, 32, 102, 105, 108, 101, 58, 32, 47, 109, 97, 105, 110, 46, 99, 112, 112, 64, 50, 49, 32, 124, 32, 91, 68, 66, 71, 93, 32, 67, 71, 88, 95, 68, 69, 66, 85, 71, 40, 115, 116, 114, 41>>() { return 6; }",
+        "variable_types": []
+    },
+    {
+        "id": 7,
+        "string": "in file: /main.cpp@22 | [INF] CGX_INFO(str)",
+        "cpp": "template</*\n    in file: /main.cpp@22 | [INF] CGX_INFO(str)\n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char, 105, 110, 32, 102, 105, 108, 101, 58, 32, 47, 109, 97, 105, 110, 46, 99, 112, 112, 64, 50, 50, 32, 124, 32, 91, 73, 78, 70, 93, 32, 67, 71, 88, 95, 73, 78, 70, 79, 40, 115, 116, 114, 41>>() { return 7; }",
+        "variable_types": []
+    },
+    {
+        "id": 8,
+        "string": "in file: /main.cpp@23 | [WRN] CGX_WARN(str)",
+        "cpp": "template</*\n    in file: /main.cpp@23 | [WRN] CGX_WARN(str)\n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char, 105, 110, 32, 102, 105, 108, 101, 58, 32, 47, 109, 97, 105, 110, 46, 99, 112, 112, 64, 50, 51, 32, 124, 32, 91, 87, 82, 78, 93, 32, 67, 71, 88, 95, 87, 65, 82, 78, 40, 115, 116, 114, 41>>() { return 8; }",
+        "variable_types": []
+    },
+    {
+        "id": 9,
+        "string": "in file: /main.cpp@24 | [ERR] CGX_ERROR(str)",
+        "cpp": "template</*\n    in file: /main.cpp@24 | [ERR] CGX_ERROR(str)\n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char, 105, 110, 32, 102, 105, 108, 101, 58, 32, 47, 109, 97, 105, 110, 46, 99, 112, 112, 64, 50, 52, 32, 124, 32, 91, 69, 82, 82, 93, 32, 67, 71, 88, 95, 69, 82, 82, 79, 82, 40, 115, 116, 114, 41>>() { return 9; }",
+        "variable_types": []
+    },
+    {
+        "id": 10,
+        "string": "in file: /main.cpp@25 | [FTL] CGX_FATAL(str)",
+        "cpp": "template</*\n    in file: /main.cpp@25 | [FTL] CGX_FATAL(str)\n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char, 105, 110, 32, 102, 105, 108, 101, 58, 32, 47, 109, 97, 105, 110, 46, 99, 112, 112, 64, 50, 53, 32, 124, 32, 91, 70, 84, 76, 93, 32, 67, 71, 88, 95, 70, 65, 84, 65, 76, 40, 115, 116, 114, 41>>() { return 10; }",
+        "variable_types": []
+    },
+    {
+        "id": 11,
+        "string": "in file: /main.cpp@26 | CGX_LOG(str)",
+        "cpp": "template</*\n    in file: /main.cpp@26 | CGX_LOG(str)\n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char, 105, 110, 32, 102, 105, 108, 101, 58, 32, 47, 109, 97, 105, 110, 46, 99, 112, 112, 64, 50, 54, 32, 124, 32, 67, 71, 88, 95, 76, 79, 71, 40, 115, 116, 114, 41>>() { return 11; }",
+        "variable_types": []
+    },
+    {
+        "id": 12,
+        "string": "CGX_PRINT(str): this is a special case that only show the string without file and line information",
+        "cpp": "template</*\n    CGX_PRINT(str): this is a special case that only show the string without file and line information\n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char, 67, 71, 88, 95, 80, 82, 73, 78, 84, 40, 115, 116, 114, 41, 58, 32, 116, 104, 105, 115, 32, 105, 115, 32, 97, 32, 115, 112, 101, 99, 105, 97, 108, 32, 99, 97, 115, 101, 32, 116, 104, 97, 116, 32, 111, 110, 108, 121, 32, 115, 104, 111, 119, 32, 116, 104, 101, 32, 115, 116, 114, 105, 110, 103, 32, 119, 105, 116, 104, 111, 117, 116, 32, 102, 105, 108, 101, 32, 97, 110, 100, 32, 108, 105, 110, 101, 32, 105, 110, 102, 111, 114, 109, 97, 116, 105, 111, 110>>() { return 12; }",
+        "variable_types": []
+    },
+    {
+        "id": 13,
+        "string": "in file: /main.cpp@32 | [INF] You can show compiler information like the date (Nov 25 2023) and time (22:01:29) of compilation",
+        "cpp": "template</*\n    in file: /main.cpp@32 | [INF] You can show compiler information like the date (Nov 25 2023) and time (22:01:29) of compilation\n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char, 105, 110, 32, 102, 105, 108, 101, 58, 32, 47, 109, 97, 105, 110, 46, 99, 112, 112, 64, 51, 50, 32, 124, 32, 91, 73, 78, 70, 93, 32, 89, 111, 117, 32, 99, 97, 110, 32, 115, 104, 111, 119, 32, 99, 111, 109, 112, 105, 108, 101, 114, 32, 105, 110, 102, 111, 114, 109, 97, 116, 105, 111, 110, 32, 108, 105, 107, 101, 32, 116, 104, 101, 32, 100, 97, 116, 101, 32, 40, 78, 111, 118, 32, 50, 53, 32, 50, 48, 50, 51, 41, 32, 97, 110, 100, 32, 116, 105, 109, 101, 32, 40, 50, 50, 58, 48, 49, 58, 50, 57, 41, 32, 111, 102, 32, 99, 111, 109, 112, 105, 108, 97, 116, 105, 111, 110>>() { return 13; }",
+        "variable_types": []
+    },
+    {
+        "id": 14,
+        "string": "in file: /main.cpp@39 | [INF] It is possible to pass variables to the log:",
+        "cpp": "template</*\n    in file: /main.cpp@39 | [INF] It is possible to pass variables to the log:\n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char, 105, 110, 32, 102, 105, 108, 101, 58, 32, 47, 109, 97, 105, 110, 46, 99, 112, 112, 64, 51, 57, 32, 124, 32, 91, 73, 78, 70, 93, 32, 73, 116, 32, 105, 115, 32, 112, 111, 115, 115, 105, 98, 108, 101, 32, 116, 111, 32, 112, 97, 115, 115, 32, 118, 97, 114, 105, 97, 98, 108, 101, 115, 32, 116, 111, 32, 116, 104, 101, 32, 108, 111, 103, 58>>() { return 14; }",
+        "variable_types": []
+    },
+    {
+        "id": 15,
+        "string": "in file: /main.cpp@41 | [DBG] i = %d",
+        "cpp": "template</*\n    in file: /main.cpp@41 | DBG i = %d\n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char, 105, 110, 32, 102, 105, 108, 101, 58, 32, 47, 109, 97, 105, 110, 46, 99, 112, 112, 64, 52, 49, 32, 124, 32, 91, 68, 66, 71, 93, 32, 105, 32, 61, 32, 37, 100>>() { return 15; }\n\ntemplate</*\n    in file: /main.cpp@41 | DBG i = %d\n*/>\ncgx::strc_id_t cgx::get_fmt_strc_id<cgx::strc<char, 105, 110, 32, 102, 105, 108, 101, 58, 32, 47, 109, 97, 105, 110, 46, 99, 112, 112, 64, 52, 49, 32, 124, 32, 91, 68, 66, 71, 93, 32, 105, 32, 61, 32, 37, 100>, int>() { return 15; }",
+        "variable_types": [
+            {
+                "type": "int",
+                "size": 4
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "string": "in file: /main.cpp@44 | [INF] and use format modifiers:",
+        "cpp": "template</*\n    in file: /main.cpp@44 | [INF] and use format modifiers:\n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char, 105, 110, 32, 102, 105, 108, 101, 58, 32, 47, 109, 97, 105, 110, 46, 99, 112, 112, 64, 52, 52, 32, 124, 32, 91, 73, 78, 70, 93, 32, 97, 110, 100, 32, 117, 115, 101, 32, 102, 111, 114, 109, 97, 116, 32, 109, 111, 100, 105, 102, 105, 101, 114, 115, 58>>() { return 16; }",
+        "variable_types": []
+    },
+    {
+        "id": 17,
+        "string": "in file: /main.cpp@46 | [DBG] i = %0.2f (%f)",
+        "cpp": "template</*\n    in file: /main.cpp@46 | DBG i = %0.2f (%f)\n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char, 105, 110, 32, 102, 105, 108, 101, 58, 32, 47, 109, 97, 105, 110, 46, 99, 112, 112, 64, 52, 54, 32, 124, 32, 91, 68, 66, 71, 93, 32, 105, 32, 61, 32, 37, 48, 46, 50, 102, 32, 40, 37, 102, 41>>() { return 17; }\n\ntemplate</*\n    in file: /main.cpp@46 | DBG i = %0.2f (%f)\n*/>\ncgx::strc_id_t cgx::get_fmt_strc_id<cgx::strc<char, 105, 110, 32, 102, 105, 108, 101, 58, 32, 47, 109, 97, 105, 110, 46, 99, 112, 112, 64, 52, 54, 32, 124, 32, 91, 68, 66, 71, 93, 32, 105, 32, 61, 32, 37, 48, 46, 50, 102, 32, 40, 37, 102, 41>, float, float>() { return 17; }",
+        "variable_types": [
+            {
+                "type": "float",
+                "size": 4
+            },
+            {
+                "type": "float",
+                "size": 4
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "string": "in file: /main.cpp@50 | [INF] We can print verbose enums using '%%s' and 'cgx::enum_arg(e)'\ne.g. e=%s",
+        "cpp": "template</*\n    in file: /main.cpp@50 | INF We can print verbose enums using %%s and cgx::enum_arg(e)\ne.g. e=%s\n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char, 105, 110, 32, 102, 105, 108, 101, 58, 32, 47, 109, 97, 105, 110, 46, 99, 112, 112, 64, 53, 48, 32, 124, 32, 91, 73, 78, 70, 93, 32, 87, 101, 32, 99, 97, 110, 32, 112, 114, 105, 110, 116, 32, 118, 101, 114, 98, 111, 115, 101, 32, 101, 110, 117, 109, 115, 32, 117, 115, 105, 110, 103, 32, 39, 37, 37, 115, 39, 32, 97, 110, 100, 32, 39, 99, 103, 120, 58, 58, 101, 110, 117, 109, 95, 97, 114, 103, 40, 101, 41, 39, 10, 101, 46, 103, 46, 32, 101, 61, 37, 115>>() { return 18; }\n\ntemplate</*\n    in file: /main.cpp@50 | INF We can print verbose enums using %%s and cgx::enum_arg(e)\ne.g. e=%s\n*/>\ncgx::strc_id_t cgx::get_fmt_strc_id<cgx::strc<char, 105, 110, 32, 102, 105, 108, 101, 58, 32, 47, 109, 97, 105, 110, 46, 99, 112, 112, 64, 53, 48, 32, 124, 32, 91, 73, 78, 70, 93, 32, 87, 101, 32, 99, 97, 110, 32, 112, 114, 105, 110, 116, 32, 118, 101, 114, 98, 111, 115, 101, 32, 101, 110, 117, 109, 115, 32, 117, 115, 105, 110, 103, 32, 39, 37, 37, 115, 39, 32, 97, 110, 100, 32, 39, 99, 103, 120, 58, 58, 101, 110, 117, 109, 95, 97, 114, 103, 40, 101, 41, 39, 10, 101, 46, 103, 46, 32, 101, 61, 37, 115>, unsigned int>() { return 18; }",
+        "variable_types": [
+            {
+                "type": "unsigned int",
+                "size": 4
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "string": "We can print verbose enums: %s",
+        "cpp": "template</*\n    We can print verbose enums: %s\n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char, 87, 101, 32, 99, 97, 110, 32, 112, 114, 105, 110, 116, 32, 118, 101, 114, 98, 111, 115, 101, 32, 101, 110, 117, 109, 115, 58, 32, 37, 115>>() { return 19; }\n\ntemplate</*\n    We can print verbose enums: %s\n*/>\ncgx::strc_id_t cgx::get_fmt_strc_id<cgx::strc<char, 87, 101, 32, 99, 97, 110, 32, 112, 114, 105, 110, 116, 32, 118, 101, 114, 98, 111, 115, 101, 32, 101, 110, 117, 109, 115, 58, 32, 37, 115>, unsigned int>() { return 19; }",
+        "variable_types": [
+            {
+                "type": "unsigned int",
+                "size": 4
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "string": "in file: /main.cpp@62 | [INF]                                      [ string id ] + [  enum id  ]",
+        "cpp": "template</*\n    in file: /main.cpp@62 | [INF]                                      [ string id ] + [  enum id  ]\n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char, 105, 110, 32, 102, 105, 108, 101, 58, 32, 47, 109, 97, 105, 110, 46, 99, 112, 112, 64, 54, 50, 32, 124, 32, 91, 73, 78, 70, 93, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 91, 32, 115, 116, 114, 105, 110, 103, 32, 105, 100, 32, 93, 32, 43, 32, 91, 32, 32, 101, 110, 117, 109, 32, 105, 100, 32, 32, 93>>() { return 20; }",
+        "variable_types": []
+    },
+    {
+        "id": 21,
+        "string": "in file: /main.cpp@65 | [INF] Because we are only streaming bytes, the transfer is very fast and small",
+        "cpp": "template</*\n    in file: /main.cpp@65 | [INF] Because we are only streaming bytes, the transfer is very fast and small\n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char, 105, 110, 32, 102, 105, 108, 101, 58, 32, 47, 109, 97, 105, 110, 46, 99, 112, 112, 64, 54, 53, 32, 124, 32, 91, 73, 78, 70, 93, 32, 66, 101, 99, 97, 117, 115, 101, 32, 119, 101, 32, 97, 114, 101, 32, 111, 110, 108, 121, 32, 115, 116, 114, 101, 97, 109, 105, 110, 103, 32, 98, 121, 116, 101, 115, 44, 32, 116, 104, 101, 32, 116, 114, 97, 110, 115, 102, 101, 114, 32, 105, 115, 32, 118, 101, 114, 121, 32, 102, 97, 115, 116, 32, 97, 110, 100, 32, 115, 109, 97, 108, 108>>() { return 21; }",
+        "variable_types": []
+    },
+    {
+        "id": 22,
+        "string": "in file: /main.cpp@68 | [INF] For example, the total transfer size of this program is %d bytes vs %.1fkB if we used strings",
+        "cpp": "template</*\n    in file: /main.cpp@68 | INF For example, the total transfer size of this program is %d bytes vs %.1fkB if we used strings\n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char, 105, 110, 32, 102, 105, 108, 101, 58, 32, 47, 109, 97, 105, 110, 46, 99, 112, 112, 64, 54, 56, 32, 124, 32, 91, 73, 78, 70, 93, 32, 70, 111, 114, 32, 101, 120, 97, 109, 112, 108, 101, 44, 32, 116, 104, 101, 32, 116, 111, 116, 97, 108, 32, 116, 114, 97, 110, 115, 102, 101, 114, 32, 115, 105, 122, 101, 32, 111, 102, 32, 116, 104, 105, 115, 32, 112, 114, 111, 103, 114, 97, 109, 32, 105, 115, 32, 37, 100, 32, 98, 121, 116, 101, 115, 32, 118, 115, 32, 37, 46, 49, 102, 107, 66, 32, 105, 102, 32, 119, 101, 32, 117, 115, 101, 100, 32, 115, 116, 114, 105, 110, 103, 115>>() { return 22; }\n\ntemplate</*\n    in file: /main.cpp@68 | INF For example, the total transfer size of this program is %d bytes vs %.1fkB if we used strings\n*/>\ncgx::strc_id_t cgx::get_fmt_strc_id<cgx::strc<char, 105, 110, 32, 102, 105, 108, 101, 58, 32, 47, 109, 97, 105, 110, 46, 99, 112, 112, 64, 54, 56, 32, 124, 32, 91, 73, 78, 70, 93, 32, 70, 111, 114, 32, 101, 120, 97, 109, 112, 108, 101, 44, 32, 116, 104, 101, 32, 116, 111, 116, 97, 108, 32, 116, 114, 97, 110, 115, 102, 101, 114, 32, 115, 105, 122, 101, 32, 111, 102, 32, 116, 104, 105, 115, 32, 112, 114, 111, 103, 114, 97, 109, 32, 105, 115, 32, 37, 100, 32, 98, 121, 116, 101, 115, 32, 118, 115, 32, 37, 46, 49, 102, 107, 66, 32, 105, 102, 32, 119, 101, 32, 117, 115, 101, 100, 32, 115, 116, 114, 105, 110, 103, 115>, int, float>() { return 22; }",
+        "variable_types": [
+            {
+                "type": "int",
+                "size": 4
+            },
+            {
+                "type": "float",
+                "size": 4
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "string": "Try running 'build/example_logger | python3 ../tools/parse_log.py --database=\"strc.json\" --log-level 3' to hide file information and show only INFO (3) logs and higher.",
+        "cpp": "template</*\n    Try running 'build/example_logger | python3 ../tools/parse_log.py --database=\"strc.json\" --log-level 3' to hide file information and show only INFO (3) logs and higher.\n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char, 84, 114, 121, 32, 114, 117, 110, 110, 105, 110, 103, 32, 39, 98, 117, 105, 108, 100, 47, 101, 120, 97, 109, 112, 108, 101, 95, 108, 111, 103, 103, 101, 114, 32, 124, 32, 112, 121, 116, 104, 111, 110, 51, 32, 46, 46, 47, 116, 111, 111, 108, 115, 47, 112, 97, 114, 115, 101, 95, 108, 111, 103, 46, 112, 121, 32, 45, 45, 100, 97, 116, 97, 98, 97, 115, 101, 61, 34, 115, 116, 114, 99, 46, 106, 115, 111, 110, 34, 32, 45, 45, 108, 111, 103, 45, 108, 101, 118, 101, 108, 32, 51, 39, 32, 116, 111, 32, 104, 105, 100, 101, 32, 102, 105, 108, 101, 32, 105, 110, 102, 111, 114, 109, 97, 116, 105, 111, 110, 32, 97, 110, 100, 32, 115, 104, 111, 119, 32, 111, 110, 108, 121, 32, 73, 78, 70, 79, 32, 40, 51, 41, 32, 108, 111, 103, 115, 32, 97, 110, 100, 32, 104, 105, 103, 104, 101, 114, 46>>() { return 23; }",
+        "variable_types": []
+    },
+    {
+        "id": 24,
+        "string": "Run python3 ../tools/parse_log.py -h to see more options.",
+        "cpp": "template</*\n    Run python3 ../tools/parse_log.py -h to see more options.\n*/>\ncgx::strc_id_t cgx::get_strc_id<cgx::strc<char, 82, 117, 110, 32, 112, 121, 116, 104, 111, 110, 51, 32, 46, 46, 47, 116, 111, 111, 108, 115, 47, 112, 97, 114, 115, 101, 95, 108, 111, 103, 46, 112, 121, 32, 45, 104, 32, 116, 111, 32, 115, 101, 101, 32, 109, 111, 114, 101, 32, 111, 112, 116, 105, 111, 110, 115, 46>>() { return 24; }",
+        "variable_types": []
+    }
+]
