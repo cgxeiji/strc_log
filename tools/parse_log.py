@@ -42,12 +42,13 @@ def is_str_format(text, idx):
 def read_stdin(database, options):
     while True:
         # read single byte
-        byte = sys.stdin.buffer.read(4)
+        byte = sys.stdin.buffer.read(database["strc_id_size"])
         if not byte:
             break
         id = int.from_bytes(byte, byteorder="little")
-        if id < len(database):
-            item = database[id]
+        strcs = database["string_constants"]
+        if id < len(strcs):
+            item = strcs[id]
             text = item["string"]
             marker = text.find(" | ")
             if marker != -1:
@@ -124,7 +125,7 @@ def read_stdin(database, options):
                     else:
                         print("Unknown size: {}".format(size))
                     if is_str_format(text, i):
-                        var = get_str_from_id(database, var)
+                        var = get_str_from_id(strcs, var)
                 elif "char" in vars[i]["type"]:
                     var = struct.unpack("<c", byte)[0]
                 elif "int" in vars[i]["type"]:
